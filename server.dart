@@ -20,7 +20,7 @@ void main()
             websocket.listen(handleMessage);
           });
         } else {
-          File file = new File('${basePath}${resultPath}');
+          File file = new File('${basePath}/web${resultPath}');
           file.exists().then((bool found){
             if(found){
               String mimeType = 'text/html; charset=UTF-8';
