@@ -1,0 +1,3 @@
+name: dartchat
+dependencies:
+    browser: any

@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "client.dart.js",
+  "sourceRoot": "",
+  "sources": ["../client.dart","../../../dart/lib/_internal/lib/internal_patch.dart","../../../dart/lib/_internal/lib/js_primitives.dart"],
+  "names": ["main","printToConsole","printString"],
+  "mappings": "A;A;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;C;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4B;;QAAAA;ICcEC;GDXFD;;;uD;;eEiBAE;;;AAIIA;;;;AAOAA;;;AAKAA;;;AAMAA;;;GAOJA;;;A;A;;A;A;A;A;A;A;;;;;;A;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;A;C;;;;;;;;;;;;;;;;;;;;;;;;;;;;A"
+}

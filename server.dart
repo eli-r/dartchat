@@ -23,10 +23,26 @@ void main()
           File file = new File('${basePath}${resultPath}');
           file.exists().then((bool found){
             if(found){
+              String mimeType = 'text/html; charset=UTF-8';
+              int lastDot = resultPath.lastIndexOf('.', resultPath.length - 1);
+              if(lastDot != -1){
+                String extension = resultPath.substring(lastDot + 1);
+                switch(extension){
+                  case 'html':
+                    break;
+                  case 'js':
+                    mimeType = 'text/javascript';
+                    break;
+                  default:
+                    break;
+                }
+              }
+              request.response.headers.set('Content-type', mimeType);
               file.openRead()
                   .pipe(request.response)
                   .catchError((e) => print('error $e sending file'));
             } else {
+              print('404: $resultPath not found');
               request.response.statusCode = HttpStatus.NOT_FOUND;
               request.response.close();
             }
