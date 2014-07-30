@@ -95,6 +95,15 @@ file:///home/eli-r/dart/lib/core/string_sink.dart
 file:///home/eli-r/dart/lib/core/symbol.dart
 file:///home/eli-r/dart/lib/core/type.dart
 file:///home/eli-r/dart/lib/core/uri.dart
+file:///home/eli-r/dart/lib/html/dart2js/html_dart2js.dart
+file:///home/eli-r/dart/lib/html/html_common/conversions.dart
+file:///home/eli-r/dart/lib/html/html_common/css_class_set.dart
+file:///home/eli-r/dart/lib/html/html_common/device.dart
+file:///home/eli-r/dart/lib/html/html_common/filtered_element_list.dart
+file:///home/eli-r/dart/lib/html/html_common/html_common_dart2js.dart
+file:///home/eli-r/dart/lib/html/html_common/lists.dart
+file:///home/eli-r/dart/lib/html/html_common/metadata.dart
+file:///home/eli-r/dart/lib/indexed_db/dart2js/indexed_db_dart2js.dart
 file:///home/eli-r/dart/lib/internal/internal.dart
 file:///home/eli-r/dart/lib/internal/iterable.dart
 file:///home/eli-r/dart/lib/internal/list.dart
@@ -109,4 +118,10 @@ file:///home/eli-r/dart/lib/math/math.dart
 file:///home/eli-r/dart/lib/math/point.dart
 file:///home/eli-r/dart/lib/math/random.dart
 file:///home/eli-r/dart/lib/math/rectangle.dart
+file:///home/eli-r/dart/lib/svg/dart2js/svg_dart2js.dart
+file:///home/eli-r/dart/lib/typed_data/dart2js/native_typed_data_dart2js.dart
+file:///home/eli-r/dart/lib/typed_data/dart2js/typed_data_dart2js.dart
+file:///home/eli-r/dart/lib/web_audio/dart2js/web_audio_dart2js.dart
+file:///home/eli-r/dart/lib/web_gl/dart2js/web_gl_dart2js.dart
+file:///home/eli-r/dart/lib/web_sql/dart2js/web_sql_dart2js.dart
 file:///home/eli-r/repos/dartchat/client.dart
